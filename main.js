@@ -51,7 +51,7 @@ sr.reveal(".home__social-icon",{interval: 200})
 
 /*---SCROLL ABOUT*/
 
-sr.reveal(`.about__img`,{})
+sr.reveal(`.about__container`,{})
 sr.reveal(`.about__subtitle`,{delay:200})
 sr.reveal(`.about__text`,{delay:400})
 

@@ -321,22 +321,10 @@ img{
 }
 
 .about__container{
-    width: 80vw;
-    row-gap: 2rem;
+    width: 100%;
     position: relative;
     margin-top: 7em;
 }
-
-.about__img{
-    justify-self: center;
-    border-radius: .5rem;
-}
-
-.about__img img{
-    width: 200px;
-    border-radius: .5rem;
-}
-
 
 /*---SKILLS---*/
 
