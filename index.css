@@ -326,6 +326,10 @@ img{
     margin-top: 7em;
 }
 
+.about__container p{
+    margin: 0 1.5em;
+}
+
 /*---SKILLS---*/
 
 .skills__container{
@@ -440,6 +444,7 @@ img{
 }
 
 .work__text {
+    padding: 3em 0;
     width: 50%;
 }
 
