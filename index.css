@@ -323,12 +323,11 @@ img{
 .about__container{
     width: 100%;
     position: relative;
-    margin-top: 7em;
+    margin-top: 3em;
 }
 
 .about__container p{
     margin: 0 1.5em;
-    margin-bottom: 1em;
 }
 
 /*---SKILLS---*/
@@ -595,6 +594,7 @@ img{
         grid-template-columns: repeat(2,1fr);
         align-items: center;
         text-align: initial;
+        margin-bottom: 2em;
     }
 
     .about__img img{
@@ -606,7 +606,6 @@ img{
     }
 
     .work__container{
-        margin-top: 2em;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,1fr);
         column-gap: 1.5rem;
