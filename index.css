@@ -389,6 +389,7 @@ img{
 .skills__img{
     border-radius: .7rem;
     width: 100%;
+    object-fit: cover;
     box-shadow: 0 4px 25px rgba(28, 25, 48, 0.384);
 }
 
