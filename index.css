@@ -312,6 +312,9 @@ img{
 
 
 /*---ABOUT---*/
+.web__color__p{
+    font-weight: 600;
+}
 
 .about{
     height: 100vh;
@@ -333,57 +336,23 @@ img{
 /*---SKILLS---*/
 
 .skills__container{
-    row-gap: 2rem;
-    text-align: center;
-}
-
-.skills__subtitle{
-    margin-bottom: var(--mb-2);
-    color: rgb(29, 29, 29);
-}
-
-.skills__text{
-    margin-bottom: var(--mb-4);
+    max-width: 1124px;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    margin: auto;
 }
 
 .skills__data{
+    width: 300px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    text-align: center;
     align-items: center;
-    position: relative;
     font-weight: var(--font-semi);
     padding: .5rem 1rem;
-    margin-bottom: var(--mb-4);
     border-radius: .5rem;
     box-shadow: 0 4px 25px rgba(28, 25, 48, 0.384);
     z-index: -1;
-}
-
-.skills__icon{
-    font-size: 1.8rem;
-    margin-right: .5rem;
-    color: rgb(94, 102, 138);
-    transition: .5s;
-}
-
-.skills__icon:hover{
-    color: rgb(140, 149, 189);
-}
-
-.skills__name{
-   color:rgb(65, 64, 64);
-
-}
-
-.skills__bar{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-color: var(--first-color);
-    height: .25rem;
-    border-radius: .7rem;
-    z-index: var(--z-back);
 }
 
 .skills__img{
@@ -393,9 +362,19 @@ img{
     box-shadow: 0 4px 25px rgba(28, 25, 48, 0.384);
 }
 
+.skills-img{
+    width: 300px;
+    height: 300px;
+}
+
+
 .skills_h3{
     margin-bottom: 5px;
     color: rgb(128, 126, 172);
+}
+
+.skills__text{
+    margin-top: 1em;
 }
 
 /*---PROYECTOS---*/
