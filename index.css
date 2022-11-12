@@ -597,6 +597,7 @@ img{
     }
 
     .work__container{
+        margin-top: 2em;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,1fr);
         column-gap: 1.5rem;
