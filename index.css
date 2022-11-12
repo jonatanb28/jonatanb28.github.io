@@ -585,7 +585,7 @@ img{
         grid-template-columns: repeat(2,1fr);
         align-items: center;
         text-align: initial;
-        margin-bottom: 2em;
+        margin-bottom: 3.5em;
     }
 
     .about__img img{
