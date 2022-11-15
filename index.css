@@ -513,8 +513,8 @@ img{
     }
 
     .section{
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
     }
 
     .section-title{
@@ -565,6 +565,10 @@ img{
         align-self: flex-end;
     }
 
+    .home__title {
+        font-size: 3.5rem;
+    }
+
     .home__social-icon{
         margin-bottom: 0;
         margin-right: 4rem;
@@ -588,12 +592,13 @@ img{
         margin-bottom: 5em;
     }
 
-    .about__img img{
-        width: 400px;
+    .about__container img{
+        width: 450px;
+        height: 450px;
     }
 
     .about__text{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .work__container{
